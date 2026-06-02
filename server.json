@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.wingmanprotocol/agent-gateway",
+  "description": "15 deterministic construction & finance calculators for AI agents (mortgage, concrete, framing, contractor markup, draw schedules, and more). MCP-native, x402 pay-per-call (USDC on Base), 500 free calls/month with an API key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://agent.wingmanprotocol.com",
+  "repository": {
+    "url": "https://github.com/WingmanProtocol-Agent-Gateway/wingman-agent-gateway",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.wingmanprotocol.com/mcp"
+    }
+  ]
+}

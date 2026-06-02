@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wingman": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://agent.wingmanprotocol.com/mcp"]
+    }
+  }
+}
